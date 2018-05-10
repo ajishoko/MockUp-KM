@@ -40,15 +40,15 @@
                             <input class="form-control input-sm" type="password" name="password" id="password" placeholder="password">
                         </div>
                         <div class="form-group">
-                            <input type="submit" class='btn btn-primary' value="Masuk" id="tombol-login" onclick="pindah()">
+                            <input type="button" class='btn btn-primary' value="Masuk" id="tombol-login" onclick="pindah()">
                         </div>
                     </form>
                 </form>
             </div>
         </nav>
-		<br/><br/><br/><br/><br/>
-        <center><img src='img/Blibli-logo.png' class="img-responsive"></center>
-		<br/><br/><br/><br/><br/>
+		<br>
+        <div class="jumbotron" style="background-image: url(img/Blibli-logo.png); height: 55vh; width:100vw; background-position: center center; background-repeat: no-repeat;">
+        </div>
         <div class="footer" id="footerWeb" style='text-align: center;'>
             <hr>
             <h4><b>&copy; Kelompok 7 KM-A</b></h4>
