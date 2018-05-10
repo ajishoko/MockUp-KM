@@ -51,7 +51,7 @@
         </div>
         <div class="footer" id="footerWeb" style='text-align: center;'>
             <hr>
-            <h4><b>&copy; Kelompok 7 KM-A</b></h4>
+            <h4><b>&copy; 2018 - Kelompok 7 KM-A</b></h4>
             <br>
             <h6>Alham Febian Rinaldy / 1506757636</h6>
             <h6>Irfin Handiliastawan / 1506689704</h6>
