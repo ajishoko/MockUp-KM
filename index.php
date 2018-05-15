@@ -26,7 +26,10 @@
                         if(username=="username00" && password=="password"){
                             alert("Login Sukses, klik button OK untuk dialihkan ke halaman Anda.");
                             window.location.href="beranda.html";
-                        }
+                        }else if (username=="admin" && password=="admin"){ 
+							alert("Login Sukses, klik button OK untuk dialihkan ke halaman Anda.");
+                            window.location.href="beranda-admin.html";
+						}
                         else{
                             alert("Login Gagal, silahkan periksa username atau password anda.");
                         }
