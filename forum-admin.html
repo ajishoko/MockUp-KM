@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Forum</title>
+		<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="beranda.html"  id="websiteName">
+                    	<img src='img/Blibli-logo.png' height='35px' id='logoF' style='margin-top:-8px;'>
+                    </a>
+                </div>
+            	<ul class="nav navbar-nav">
+			      	<li><a href="beranda-admin.html">Utama</a></li>
+					<li class="active"><a href="forum-admin.html">Forum</a></li>
+			      	<li><a href="teman.html">Member <span class="badge">11</span></a></a></li>
+					<li><a href="user.html">@admin</a></a></li>
+			    </ul>
+                <form class="navbar-form navbar-right">
+                	
+                    <div class="form-group">
+                        <button type='submit' class='btn btn-link' name='login' id="loginButton">
+                        	<a href='index.php'><span class='glyphicon glyphicon-log-out'></span>  Keluar
+                        	</a>
+                        </button> 
+                    </div>
+                </form>
+            </div>
+        </nav>
+		<br><br>
+        <div class="jumbotron" style="background-image: url(img/Blibli-logo.png); height: 55vh; width:100vw; background-position: center center; background-repeat: no-repeat;">
+        </div>
+
+        <div class="container">
+        <h1 style='color:#00b3ee;'>Portal Forum</h1>
+        <br/>
+			<div class="alert alert-info">
+			  	<strong>Info !</strong> Untuk dapat membuat forum baru anda dapat mengklik tombol 'Ciptakan Forum' dibawah.
+			</div>
+			<button class='btn btn-primary'><a href='cipta-forum.html' style='text-decoration: none; color:white;'><span class='glyphicon glyphicon-pencil'></span> Ciptakan Forum</a></button>
+        
+		
+		<div class='row'>
+        
+                <div class='col-sm-5'>
+				<br>
+                    <label>Cari Forum</label>
+                    <input class="form-control input-sm" type="text" name="pencarian" id="cari" placeholder="Pencarian..."></td>
+                </div>
+                <div class='col-sm-5'>
+				<br>
+                     <div class="form-group">
+                        <label>Kategori</label>
+						  <select class="form-control" id="sel1">
+						    <option>Framework</option>
+						    <option>Data Mining</option>
+						    <option>Big Data</option>
+						    <option>Programming Language</option>
+						  </select>
+                    </div>
+                </div>
+
+        </div>
+        
+        <br>
+        <br>
+       
+        <hr>
+        <h2 style='color:black;'>Framework >><br>_____________________________________________________________________</h2>
+        <div class='container' style='margin-left: 30px;'> 
+               <div class="row" style="margin-bottom: 8px;">
+                    <a href="forum-threadlist-admin.html"><div href="" class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Spring boot</h4>
+                        <h6 style="color: black;">Forum untuk berdiskusi segala sesuatu terkait Spring boot termasuk tutorial, tips dan trik</h6>
+                    </div></a>
+                    <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>React.js</h4>
+                        <h6>Forum untuk berdiskusi segala sesuatu terkait React.js termasuk tutorial, tips dan trik</h6>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 8px;">
+                    <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Laravel</h4>
+                        <h6>Forum untuk berdiskusi segala sesuatu terkait Laravel termasuk tutorial, tips dan trik</h6>
+                    </div>
+                </div>
+   
+
+            </div>
+			        <h2 style='color:black;'>Data Mining >><br>_____________________________________________________________________</h2>
+        <div class='container' style='margin-left: 30px;'> 
+               <div class="row" style="margin-bottom: 8px;">
+                    <a href="forum-threadlist-user.html"><div href="" class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Data Sources</h4>
+                        <h6 style="color: black;">Forum untuk berdiskusi segala sesuatu terkait Data Sources termasuk tutorial, tips dan trik</h6>
+                    </div></a>
+                    <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Data Exploration</h4>
+                        <h6>Forum untuk berdiskusi segala sesuatu terkait Data Exploration termasuk tutorial, tips dan trik</h6>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 8px;">
+                    <div href="" class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Modeling</h4>
+                        <h6>Forum untuk berdiskusi segala sesuatu terkait Modeling termasuk tutorial, tips dan trik</h6>
+                    </div>
+					    <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Deploying Model</h4>
+                        <h6>Forum untuk berdiskusi segala sesuatu terkait Deploying Model termasuk tutorial, tips dan trik</h6>
+                    </div>
+                </div>
+            </div>
+			        <h2 style='color:black;'>Big Data >><br>_____________________________________________________________________</h2>
+        <div class='container' style='margin-left: 30px;'> 
+               <div class="row" style="margin-bottom: 8px;">
+                    <a href="forum-threadlist-user.html"><div href="" class="col-md-5" style="margin: 5px; border: 1px solid #d7dbdd; border-radius: 4px; margin-right: 40px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Implementasi</h4>
+                        <h6 style="color: black;">Forum untuk berdiskusi segala sesuatu terkait Implementasi Big Data termasuk tutorial, tips dan trik</h6>
+                    </div></a>
+                    <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Arsitektur</h4>
+						<h6>Forum untuk berdiskusi segala sesuatu terkait Arsitektur Big Data termasuk tutorial, tips dan trik</h6>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 8px;">
+                    <div class="col-md-5" style="margin: 5px;border: 1px solid #d7dbdd; border-radius: 4px; height: 75px; width: 45%; padding: 5px; padding-left: 10px;">
+                        <h4 style='color:#00b3ee;'>Tools</h4>
+                        <h6>Forum untuk berdiskusi segala sesuatu terkait tools Big Data termasuk tutorial, tips dan trik</h6>
+                    </div>
+                </div>
+            </div>
+            <button class='btn btn-default'>Tampilkan Lebih Banyak...</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="footer" id="footerWeb" style='text-align: center;padding: 15px; background-color: #d7dbdd;'>
+            <h4><b>&copy; 2018 - Kelompok 7 KM-A</b></h4>
+            <br>
+            <h6>Alham Febian Rinaldy / 1506757636</h6>
+            <h6>Irfin Handiliastawan / 1506689704</h6>
+            <h6>Yudistira Ramadhan / 1506689635</h6>
+        </div>
+    </body>
+</html>
