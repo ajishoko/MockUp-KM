@@ -51,8 +51,25 @@
             </div>
         </nav>
 		<br>
-        <div class="jumbotron" style="background-image: url(img/Blibli-logo.png); height: 55vh; width:100vw; background-position: center center; background-repeat: no-repeat;">
-        </div>
+		
+        <div class="jumbotron" style="background-image: url(img/Blibli-logo.png); height: 65vh; width:100vw; background-position: center center; background-repeat: no-repeat;">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<br>
+		<center><h3><i>Knowledge Management for Research and Development Division<i></h3><center>	
+		
+		</div>
         <div class="footer" id="footerWeb" style='text-align: center;'>
             <hr>
             <h4><b>&copy; 2018 - Kelompok 7 KM-A</b></h4>
