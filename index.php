@@ -15,8 +15,6 @@
                     </a>
                 </div>
             	<ul class="nav navbar-nav">
-			      	<li class="active"><a href="beranda.html">Utama</a></li>
-					<li><a href="forum-portal.html">Forum</a></li>
 			    </ul>
                  <script type="text/javascript">
                     function pindah()
